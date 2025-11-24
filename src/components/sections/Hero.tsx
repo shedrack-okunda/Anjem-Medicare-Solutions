@@ -210,7 +210,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode, scrollToSection }) => {
 						variants={imageVariants}
 						className="relative">
 						<img
-							src="/images/hero.avif"
+							src="/images/hero.png"
 							alt="Professional nurse providing compassionate care to elderly patient"
 							className="w-full h-auto rounded-2xl shadow-2xl object-cover"
 							loading="lazy"

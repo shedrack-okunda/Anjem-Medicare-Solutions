@@ -135,7 +135,7 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
 								<a
 									href="mailto:unityhomecare874@gmail.com"
 									className="text-purple-600 font-semibold hover:text-purple-700 transition-colors">
-									unityhomecare874@gmail.com
+									homecareunity17@gmail.com
 								</a>
 							),
 							gradient: "from-purple-500 to-pink-500",

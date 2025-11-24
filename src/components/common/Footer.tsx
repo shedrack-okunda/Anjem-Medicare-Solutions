@@ -81,7 +81,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
 							<Phone className="h-6 w-6" aria-hidden="true" />
 						</a>
 						<a
-							href="mailto:unityhomecare874@gmail.com"
+							href="mailto:homecareunity17@gmail.com"
 							className="text-gray-400 hover:text-white transition-colors"
 							aria-label="Email Unity Home Care Services">
 							<Mail className="h-6 w-6" aria-hidden="true" />
