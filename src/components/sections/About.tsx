@@ -42,16 +42,16 @@ const AboutUs: React.FC<AboutUsProps> = ({ darkMode }) => {
 							className="space-y-6">
 							<h2
 								id="about-title"
-								className={`text-4xl lg:text-5xl font-bold ${
+								className={`text-4xl text-center lg:text-5xl font-bold ${
 									darkMode ? "text-white" : "text-gray-900"
 								}`}>
 								Why Choose{" "}
 								<span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-									Unity HomeCare?
+									Unity HomeCare Solutions?
 								</span>
 							</h2>
 							<p
-								className={`text-xl leading-relaxed ${
+								className={`text-xl text-center leading-relaxed ${
 									darkMode ? "text-gray-300" : "text-gray-600"
 								}`}>
 								We believe that quality healthcare should be
@@ -128,22 +128,6 @@ const AboutUs: React.FC<AboutUsProps> = ({ darkMode }) => {
 							{[
 								{
 									icon: (
-										<Heart
-											aria-hidden="true"
-											className={`h-8 w-8 mb-4 ${
-												darkMode
-													? "text-blue-300"
-													: "text-blue-600"
-											}`}
-										/>
-									),
-									title: "Compassionate Care",
-									classes: darkMode
-										? "bg-gradient-to-br from-blue-900 to-purple-900 border-blue-700"
-										: "bg-gradient-to-br from-blue-100 to-purple-100 border-blue-200",
-								},
-								{
-									icon: (
 										<Shield
 											aria-hidden="true"
 											className={`h-8 w-8 mb-4 ${
@@ -160,22 +144,6 @@ const AboutUs: React.FC<AboutUsProps> = ({ darkMode }) => {
 								},
 								{
 									icon: (
-										<Users
-											aria-hidden="true"
-											className={`h-8 w-8 mb-4 ${
-												darkMode
-													? "text-purple-300"
-													: "text-purple-600"
-											}`}
-										/>
-									),
-									title: "Family Focused",
-									classes: darkMode
-										? "bg-gradient-to-br from-purple-900 to-pink-900 border-purple-700 -mt-4"
-										: "bg-gradient-to-br from-purple-100 to-pink-100 border-purple-200 -mt-4",
-								},
-								{
-									icon: (
 										<Star
 											aria-hidden="true"
 											className={`h-8 w-8 mb-4 ${
@@ -189,6 +157,39 @@ const AboutUs: React.FC<AboutUsProps> = ({ darkMode }) => {
 									classes: darkMode
 										? "bg-gradient-to-br from-orange-900 to-red-900 border-orange-700 mt-4"
 										: "bg-gradient-to-br from-orange-100 to-red-100 border-orange-200 mt-4",
+								},
+								{
+									icon: (
+										<Heart
+											aria-hidden="true"
+											className={`h-8 w-8 mb-4 ${
+												darkMode
+													? "text-blue-300"
+													: "text-blue-600"
+											}`}
+										/>
+									),
+									title: "Compassionate Care",
+									classes: darkMode
+										? "bg-gradient-to-br from-blue-900 to-purple-900 border-blue-700"
+										: "bg-gradient-to-br from-blue-100 to-purple-100 border-blue-200",
+								},
+
+								{
+									icon: (
+										<Users
+											aria-hidden="true"
+											className={`h-8 w-8 mb-4 ${
+												darkMode
+													? "text-purple-300"
+													: "text-purple-600"
+											}`}
+										/>
+									),
+									title: "Family Focused",
+									classes: darkMode
+										? "bg-gradient-to-br from-purple-900 to-pink-900 border-purple-700 -mt-4"
+										: "bg-gradient-to-br from-purple-100 to-pink-100 border-purple-200 -mt-4",
 								},
 							].map((card, i) => (
 								<motion.div

@@ -65,7 +65,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode, scrollToSection }) => {
 			aria-labelledby="hero-heading"
 			className={`pt-20 pb-16 px-6 bg-gradient-to-br ${
 				darkMode
-					? "from-gray-900 via-blue-900 to-purple-900"
+					? "from-gray-900 via-gray-900 to-gray-900"
 					: "from-blue-50 via-purple-50 to-pink-50"
 			}`}>
 			<div className="container mx-auto">
@@ -78,7 +78,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode, scrollToSection }) => {
 								whileInView="visible"
 								viewport={{ once: true }}
 								variants={paragraphVariants}
-								className={`inline-flex items-center px-4 py-2 rounded-full ${
+								className={`inline-flex items-center px-4 py-2 mt-4 rounded-full ${
 									darkMode
 										? "bg-blue-900/50 text-blue-300 border border-blue-700"
 										: "bg-blue-100 text-blue-800 border border-blue-200"

@@ -1,4 +1,4 @@
-import { Moon, Sun, Menu, X, Heart } from "lucide-react";
+import { Moon, Sun, Menu, X } from "lucide-react";
 
 interface NavbarProps {
 	darkMode: boolean;
@@ -25,10 +25,13 @@ const Navbar = ({
 			<div className="container mx-auto px-6 py-4 flex items-center justify-between">
 				{/* Logo */}
 				<div className="flex items-center space-x-3">
-					<div className="p-2 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600">
-						<Heart className="h-6 w-6 text-white" />
-					</div>
-					<span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+					<img
+						src="/images/unitylogo.png"
+						alt="Unity Logo"
+						loading="lazy"
+						className="w-13 h-13 rounded-full"
+					/>
+					<span className="text-md font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
 						Unity HomeCare
 					</span>
 				</div>

@@ -141,11 +141,10 @@ const Services: React.FC<ServicesProps> = ({ darkMode }) => {
 										viewport={{ once: true }}
 										transition={{
 											duration: 0.7,
-											delay: 0.4,
 										}}
 										src={image}
 										alt={title}
-										className="w-full h-full object-cover transition-all duration-700 brightness-75 group-hover:brightness-60 group-hover:scale-110"
+										className="absolute inset-0 w-full h-full object-cover transition-all duration-700 brightness-75 group-hover:brightness-60 group-hover:scale-110"
 										loading="lazy"
 										width={400}
 										height={300}

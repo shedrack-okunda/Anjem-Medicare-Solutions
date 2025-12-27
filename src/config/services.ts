@@ -28,7 +28,7 @@ export const SERVICES: Services[] = [
 			"Comprehensive support during your transition from hospital to home, ensuring continuity of care and peace of mind.",
 		icon: Home,
 		color: "from-blue-500 to-cyan-500",
-		image: "/images/postdischarge.avif",
+		image: "/images/postdischarge.png",
 	},
 	{
 		id: "mobility-assistance",
@@ -37,7 +37,7 @@ export const SERVICES: Services[] = [
 			"Safe and dignified support for daily movement, helping maintain independence and prevent falls.",
 		icon: Accessibility,
 		color: "from-green-500 to-emerald-500",
-		image: "/images/mobility.avif",
+		image: "/images/mobility.png",
 	},
 	{
 		id: "nutrition-support",
@@ -46,7 +46,7 @@ export const SERVICES: Services[] = [
 			"Personalized meal planning and feeding assistance to maintain optimal health and nutrition.",
 		icon: Apple,
 		color: "from-orange-500 to-red-500",
-		image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&crop=center",
+		image: "/images/feeding.png",
 	},
 
 	{
@@ -56,7 +56,7 @@ export const SERVICES: Services[] = [
 			"Professional wound assessment, cleaning, and dressing changes following medical protocols.",
 		icon: Bandage,
 		color: "from-pink-500 to-rose-500",
-		image: "/images/wound.avif",
+		image: "/images/wound.png",
 	},
 	{
 		id: "monitoring-vitals",
@@ -65,7 +65,7 @@ export const SERVICES: Services[] = [
 			"Regular monitoring of blood pressure, temperature, pulse, and other vital signs for your safety.",
 		icon: BarChart,
 		color: "from-purple-500 to-violet-500",
-		image: "/images/monitoring.avif",
+		image: "/images/vitals.png",
 	},
 	{
 		id: "bathing-grooming",
@@ -74,7 +74,7 @@ export const SERVICES: Services[] = [
 			"Respectful personal care assistance maintaining dignity while ensuring cleanliness and comfort.",
 		icon: Bath,
 		color: "from-teal-500 to-cyan-500",
-		image: "/images/bathing.avif",
+		image: "/images/bathing.png",
 	},
 	{
 		id: "elderly-care",
@@ -83,7 +83,7 @@ export const SERVICES: Services[] = [
 			"Specialized care for seniors, promoting aging in place with comfort, safety, and companionship.",
 		icon: Users,
 		color: "from-indigo-500 to-blue-500",
-		image: "/images/elderly.avif",
+		image: "/images/elderly.png",
 	},
 	{
 		id: "medication-admin",
@@ -92,7 +92,7 @@ export const SERVICES: Services[] = [
 			"Safe and accurate medication management ensuring proper dosages and timing as prescribed.",
 		icon: Pill,
 		color: "from-yellow-500 to-orange-500",
-		image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400&h=300&fit=crop&crop=center",
+		image: "/images/medication.png",
 	},
 	{
 		id: "nursing-care",
@@ -101,6 +101,6 @@ export const SERVICES: Services[] = [
 			"Licensed nursing professionals providing skilled medical care in the comfort of your home.",
 		icon: Stethoscope,
 		color: "from-emerald-500 to-teal-500",
-		image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&h=300&fit=crop&crop=center",
+		image: "/images/nursing.png",
 	},
 ];
